@@ -30,5 +30,17 @@ class Book:
         """
         return f"{self.title} by {self.author} {self.year}"
     
+    def set_rating(self, rating):
+        """
+        Set a rating to a book
+        """
+        if 0 <= rating <= 5:
+            self.__rating = rating
+        else :
+            print("Rating must be between 0 and 5.")
+    
+    def get
+
+    
     #Book.get_details()
     #Book.available =
